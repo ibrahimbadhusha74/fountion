@@ -1,0 +1,230 @@
+body {
+
+    .navbar .nav-link {
+        color: #fff;
+    }
+
+    /* Set background image */
+    background-image: url('images/image\ 13.png');
+    /* Specify background size */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Background repeat */
+    background-repeat: no-repeat;
+    /* Height of the background image */
+    height: 100vh;
+    /* 100% of viewport height */
+    /* Padding for content */
+    padding: 20px;
+    /* Font color for content */
+    color: #fff;
+    /* White text color */
+    overflow-x: hidden;
+}
+
+.headings {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+
+.headings {
+    font: Poppins;
+    font-weight: 700;
+    size: 60px;
+    line-height: 90px;
+}
+
+.ourus {
+    /* margin: 30px; */
+}
+
+.lead {
+    font: Source Sans Pro;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.b1 {
+    width: 150px;
+    height: 50px;
+    top: 474px;
+    left: 625px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Styles */
+.footer-area {
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-area h4 {
+    color: #ff5e15;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.footer-area p,
+.footer-area ul {
+    color: #ccc;
+}
+
+.footer-area ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-area ul li {
+    margin-bottom: 22px;
+}
+
+.footer-area ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-area ul li a:hover {
+    color: #ff5e15;
+}
+
+.footer-area .form-control {
+    display: inline-block;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ff5e15;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    margin-right: -5px;
+    color: #ff5e15;
+}
+
+.footer-area .click-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff5e15;
+    color: #fff;
+    border: 2px solid #ff5e15;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.footer-area .click-btn:hover {
+    background: #e64a0f;
+    border-color: #e64a0f;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding: 20px 0;
+}
+
+.footer-bottom .footer-text {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-bottom .footer-social a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom .footer-social a:hover {
+    color: #ff5e15;
+}
+
+.footer-social i {
+    font-size: 20px;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Subscription Form */
+.subscription-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subscription-area h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subscription-area .form-inline {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-area .form-control {
+    width: 44%;
+    padding: 27px;
+    border-radius: 0;
+    border: 2px solid #ff5e15;
+    border-right: none;
+}
+
+.subscription-area .click-btn {
+    width: 20%;
+    padding: 15px;
+    border: 2px solid #ff5e15;
+    background-color: #ff5e15;
+    color: #fff;
+    border-left: none;
+    cursor: pointer;
+}
+
+.subscription-area .click-btn:hover {
+    background: #e64a0f;
+    border-color: #e64a0f;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .footer-area {
+        text-align: center;
+    }
+
+    .footer-area .single-footer-widget {
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .footer-bottom .footer-social {
+        margin-top: 20px;
+    }
+
+    .subscription-area .form-inline {
+        flex-direction: column;
+    }
+
+    .subscription-area .form-control,
+    .subscription-area .click-btn {
+        width: 80%;
+        margin: 5px auto;
+        border-radius: 4px;
+    }
+}
